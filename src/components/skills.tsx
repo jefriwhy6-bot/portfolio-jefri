@@ -43,7 +43,7 @@ const skillGroups = [
 
 export function Skills() {
   return (
-    <section id="skills" className="py-16 sm:py-24 md:py-32 px-5 sm:px-6 overflow-hidden">
+    <section id="skills" className="py-12 sm:py-24 md:py-32 px-5 sm:px-6 overflow-hidden">
       <div className="max-w-5xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

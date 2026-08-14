@@ -24,7 +24,7 @@ const services = [
 
 export function Services() {
   return (
-    <section id="services" className="py-16 sm:py-24 md:py-32 px-5 sm:px-6 relative overflow-hidden">
+    <section id="services" className="py-12 sm:py-24 md:py-32 px-5 sm:px-6 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-white/[0.01] to-transparent" />
 
       <div className="relative max-w-4xl mx-auto">

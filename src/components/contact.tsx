@@ -44,7 +44,7 @@ const channels = [
 
 export function Contact() {
   return (
-    <section id="contact" className="py-16 sm:py-24 md:py-32 px-5 sm:px-6 relative overflow-hidden">
+    <section id="contact" className="py-12 sm:py-24 md:py-32 px-5 sm:px-6 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-t from-accent/[0.02] to-transparent" />
 
       <div className="relative max-w-3xl mx-auto text-center">

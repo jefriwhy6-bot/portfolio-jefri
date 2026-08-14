@@ -48,7 +48,7 @@ const projects = [
 
 export function Projects() {
   return (
-    <section id="projects" className="py-16 sm:py-24 md:py-32 px-5 sm:px-6 relative overflow-hidden">
+    <section id="projects" className="py-12 sm:py-24 md:py-32 px-5 sm:px-6 relative overflow-hidden">
       <div className="absolute right-0 top-1/3 w-px h-40 bg-gradient-to-b from-transparent via-neon-cyan/20 to-transparent" />
 
       <div className="max-w-6xl mx-auto">

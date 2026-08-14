@@ -5,7 +5,7 @@ import { ArrowDown, MessageCircle, Sparkles } from "lucide-react";
 
 export function Hero() {
   return (
-    <section className="relative min-h-[100dvh] flex items-center justify-center px-5 sm:px-6 overflow-hidden">
+    <section className="relative min-h-[85dvh] sm:min-h-[100dvh] flex items-center justify-center px-5 sm:px-6 pt-16 overflow-hidden">
       {/* Ambient background */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/4 left-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-accent/10 rounded-full blur-[100px] animate-float" />
@@ -29,13 +29,13 @@ export function Hero() {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.2 }}
-            className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-[11px] sm:text-sm text-slate-400 mb-6 sm:mb-8"
+            className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-[11px] sm:text-sm text-slate-400 mb-4 sm:mb-8"
           >
             <Sparkles className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-accent" />
             Available for freelance projects
           </motion.div>
 
-          <h1 className="font-heading text-[2.5rem] sm:text-6xl md:text-7xl lg:text-8xl font-black mb-4 sm:mb-6 leading-[0.9] tracking-tight">
+          <h1 className="font-heading text-[2.2rem] sm:text-6xl md:text-7xl lg:text-8xl font-black mb-3 sm:mb-6 leading-[0.9] tracking-tight">
             <span className="text-white">Jefri Wahyu</span>
             <br />
             <span className="gradient-text">Gunawan</span>
@@ -46,7 +46,7 @@ export function Hero() {
             <span className="text-neon-cyan font-medium">Digital Marketing</span>
           </p>
 
-          <p className="text-xs sm:text-base text-slate-500 font-body max-w-xl mx-auto mb-8 sm:mb-10 leading-relaxed px-2">
+          <p className="text-xs sm:text-base text-slate-500 font-body max-w-xl mx-auto mb-6 sm:mb-10 leading-relaxed px-2">
             Membantu bisnis tumbuh lebih efisien lewat strategi digital marketing
             dan sistem automation yang memangkas kerja manual hingga 95%.
           </p>

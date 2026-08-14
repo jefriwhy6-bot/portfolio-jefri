@@ -12,7 +12,7 @@ const stats = [
 
 export function About() {
   return (
-    <section id="about" className="py-16 sm:py-24 md:py-32 px-5 sm:px-6 relative overflow-hidden">
+    <section id="about" className="py-12 sm:py-24 md:py-32 px-5 sm:px-6 relative overflow-hidden">
       <div className="max-w-5xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
