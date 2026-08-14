@@ -24,7 +24,7 @@ const services = [
 
 export function Services() {
   return (
-    <section id="services" className="py-24 sm:py-32 px-4 sm:px-6 relative">
+    <section id="services" className="py-16 sm:py-24 md:py-32 px-5 sm:px-6 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-white/[0.01] to-transparent" />
 
       <div className="relative max-w-4xl mx-auto">
@@ -34,8 +34,8 @@ export function Services() {
           viewport={{ once: true }}
           className="text-center mb-14"
         >
-          <p className="text-neon-cyan text-sm font-medium tracking-widest uppercase mb-3">Layanan</p>
-          <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold text-white">
+          <p className="text-neon-cyan text-xs sm:text-sm font-medium tracking-widest uppercase mb-2 sm:mb-3">Layanan</p>
+          <h2 className="font-heading text-2xl sm:text-4xl md:text-5xl font-bold text-white">
             Apa yang bisa <span className="text-slate-500">saya bantu?</span>
           </h2>
           <p className="text-slate-500 mt-3 text-sm">Konsultasi gratis, langsung chat atau pesan via Fastwork</p>
@@ -52,7 +52,7 @@ export function Services() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: i * 0.15 }}
-              className="group glass rounded-2xl p-6 sm:p-8 hover:border-accent/20 transition-all duration-300 cursor-pointer hover:-translate-y-1 block"
+              className="group glass rounded-xl sm:rounded-2xl p-5 sm:p-8 hover:border-accent/20 transition-all duration-300 cursor-pointer hover:-translate-y-1 block"
             >
               <div className="flex items-start justify-between mb-5">
                 <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-accent/10 to-accent-light/5 border border-accent/10 flex items-center justify-center group-hover:scale-110 transition-transform">

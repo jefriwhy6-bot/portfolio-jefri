@@ -43,7 +43,7 @@ const skillGroups = [
 
 export function Skills() {
   return (
-    <section id="skills" className="py-24 sm:py-32 px-4 sm:px-6">
+    <section id="skills" className="py-16 sm:py-24 md:py-32 px-5 sm:px-6 overflow-hidden">
       <div className="max-w-5xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -51,8 +51,8 @@ export function Skills() {
           viewport={{ once: true }}
           className="text-center mb-14"
         >
-          <p className="text-neon-indigo text-sm font-medium tracking-widest uppercase mb-3">Keahlian</p>
-          <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold text-white">
+          <p className="text-neon-indigo text-xs sm:text-sm font-medium tracking-widest uppercase mb-2 sm:mb-3">Keahlian</p>
+          <h2 className="font-heading text-2xl sm:text-4xl md:text-5xl font-bold text-white">
             Skills & <span className="text-slate-500">Tools</span>
           </h2>
         </motion.div>

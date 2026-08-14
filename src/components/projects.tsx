@@ -48,7 +48,7 @@ const projects = [
 
 export function Projects() {
   return (
-    <section id="projects" className="py-24 sm:py-32 px-4 sm:px-6 relative">
+    <section id="projects" className="py-16 sm:py-24 md:py-32 px-5 sm:px-6 relative overflow-hidden">
       <div className="absolute right-0 top-1/3 w-px h-40 bg-gradient-to-b from-transparent via-neon-cyan/20 to-transparent" />
 
       <div className="max-w-6xl mx-auto">
@@ -58,14 +58,14 @@ export function Projects() {
           viewport={{ once: true }}
           className="text-center mb-14"
         >
-          <p className="text-accent text-sm font-medium tracking-widest uppercase mb-3">Portfolio</p>
-          <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold text-white">
+          <p className="text-accent text-xs sm:text-sm font-medium tracking-widest uppercase mb-2 sm:mb-3">Portfolio</p>
+          <h2 className="font-heading text-2xl sm:text-4xl md:text-5xl font-bold text-white">
             Featured <span className="text-slate-500">Projects</span>
           </h2>
-          <p className="text-slate-500 mt-3 text-sm sm:text-base">Proyek nyata yang sudah saya bangun dan deliver ke klien</p>
+          <p className="text-slate-500 mt-2 sm:mt-3 text-xs sm:text-base">Proyek nyata yang sudah saya bangun dan deliver ke klien</p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
           {projects.map((project, i) => (
             <motion.div
               key={i}
@@ -78,7 +78,7 @@ export function Projects() {
               {/* Gradient glow */}
               <div className={`absolute inset-0 bg-gradient-to-br ${project.color} opacity-0 group-hover:opacity-100 transition-opacity duration-500`} />
 
-              <div className="relative p-6 sm:p-7 flex flex-col h-full">
+              <div className="relative p-4 sm:p-7 flex flex-col h-full">
                 <div className="flex items-start gap-4 mb-4">
                   <div className="w-11 h-11 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center shrink-0 group-hover:border-white/20 transition-colors">
                     <project.icon className="w-5 h-5 text-accent" />

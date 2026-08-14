@@ -42,15 +42,15 @@ const experiences = [
 
 export function Experience() {
   return (
-    <section id="experience" className="py-24 sm:py-32 px-4 sm:px-6 relative">
+    <section id="experience" className="py-16 sm:py-24 md:py-32 px-5 sm:px-6 relative overflow-hidden">
       <div className="max-w-4xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          <p className="text-neon-cyan text-sm font-medium tracking-widest uppercase mb-3">Pengalaman</p>
-          <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold mb-14 text-white">
+          <p className="text-neon-cyan text-xs sm:text-sm font-medium tracking-widest uppercase mb-2 sm:mb-3">Pengalaman</p>
+          <h2 className="font-heading text-2xl sm:text-4xl md:text-5xl font-bold mb-8 sm:mb-14 text-white">
             Journey <span className="text-slate-500">saya</span>
           </h2>
         </motion.div>
@@ -72,7 +72,7 @@ export function Experience() {
                   <div className="w-2 h-2 rounded-full bg-accent" />
                 </div>
 
-                <div className="glass rounded-2xl p-5 sm:p-7 hover:border-white/10 transition-all group">
+                <div className="glass rounded-xl sm:rounded-2xl p-4 sm:p-7 hover:border-white/10 transition-all group">
                   <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-4">
                     <div>
                       <h3 className="font-heading text-lg sm:text-xl font-bold text-white group-hover:text-accent transition-colors">
