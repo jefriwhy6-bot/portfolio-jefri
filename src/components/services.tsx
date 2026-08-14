@@ -5,17 +5,17 @@ import { Workflow, PenTool, ArrowUpRight } from "lucide-react";
 
 const services = [
   {
-    title: "Otomatisasi Proses Bisnis dengan n8n",
-    subtitle: "Chatbot · Auto-Post · Integrasi Data",
-    description: "Saya rancang dan bangun sistem otomatisasi end-to-end menggunakan n8n — dari chatbot WhatsApp, auto-posting konten, integrasi database, hingga notifikasi otomatis. Hemat waktu, kurangi error manual.",
+    title: "Automation untuk Bisnis Anda",
+    subtitle: "Workflow Custom · Eliminasi Kerja Repetitif",
+    description: "Saya merancang dan membangun sistem automation yang disesuaikan dengan kebutuhan bisnis Anda. Mulai dari otomatisasi proses repetitif, integrasi antar-platform, hingga workflow lengkap yang berjalan sendiri — sehingga tim Anda bisa fokus ke hal yang lebih penting.",
     icon: Workflow,
     link: "https://fastwork.id/user/jefriwhy/ai-automation-76940023",
     price: "Mulai Rp 500rb",
   },
   {
-    title: "Web App Auto-Post ke Threads",
-    subtitle: "Sesuai Profil Brand Anda",
-    description: "Aplikasi web yang generate & publish konten otomatis ke Threads berdasarkan profil brand Anda. Lengkap dengan penjadwalan, AI content generation, dan analitik performa.",
+    title: "Pembuatan Web App / SaaS",
+    subtitle: "Full-Stack · Next.js · Tailored Solution",
+    description: "Butuh aplikasi web custom untuk bisnis Anda? Saya bangun dari nol — dashboard, landing page, web app internal, hingga SaaS product. Responsive, modern, dan siap deploy.",
     icon: PenTool,
     link: "#",
     price: "Custom Quote",
@@ -36,9 +36,9 @@ export function Services() {
         >
           <p className="text-neon-cyan text-sm font-medium tracking-widest uppercase mb-3">Layanan</p>
           <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold text-white">
-            Tersedia di <span className="text-slate-500">Fastwork</span>
+            Apa yang bisa <span className="text-slate-500">saya bantu?</span>
           </h2>
-          <p className="text-slate-500 mt-3 text-sm">Langsung pesan, konsultasi gratis</p>
+          <p className="text-slate-500 mt-3 text-sm">Konsultasi gratis — langsung chat atau pesan via Fastwork</p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
