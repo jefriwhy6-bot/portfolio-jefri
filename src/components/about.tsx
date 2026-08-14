@@ -24,8 +24,8 @@ export function About() {
         >
           <p className="text-accent text-sm font-medium tracking-widest uppercase mb-3">Tentang Saya</p>
           <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold mb-8 text-white leading-tight">
-            Dari digital marketing<br className="hidden sm:block" />
-            <span className="text-slate-400">ke workflow automation</span>
+            Digital Marketing<br className="hidden sm:block" />
+            <span className="text-slate-400">& Workflow Automation</span>
           </h2>
         </motion.div>
 
