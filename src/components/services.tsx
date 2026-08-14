@@ -7,7 +7,7 @@ const services = [
   {
     title: "Automation untuk Bisnis Anda",
     subtitle: "Workflow Custom · Eliminasi Kerja Repetitif",
-    description: "Saya merancang dan membangun sistem automation yang disesuaikan dengan kebutuhan bisnis Anda. Mulai dari otomatisasi proses repetitif, integrasi antar-platform, hingga workflow lengkap yang berjalan sendiri — sehingga tim Anda bisa fokus ke hal yang lebih penting.",
+    description: "Saya merancang dan membangun sistem automation yang disesuaikan dengan kebutuhan bisnis Anda. Mulai dari otomatisasi proses repetitif, integrasi antar-platform, hingga workflow lengkap yang berjalan sendiri, sehingga tim Anda bisa fokus ke hal yang lebih penting.",
     icon: Workflow,
     link: "https://fastwork.id/user/jefriwhy/ai-automation-76940023",
     price: "Mulai Rp 500rb",
@@ -15,7 +15,7 @@ const services = [
   {
     title: "Pembuatan Web App / SaaS",
     subtitle: "Full-Stack · Next.js · Tailored Solution",
-    description: "Butuh aplikasi web custom untuk bisnis Anda? Saya bangun dari nol — dashboard, landing page, web app internal, hingga SaaS product. Responsive, modern, dan siap deploy.",
+    description: "Butuh aplikasi web custom untuk bisnis Anda? Saya bangun dari nol. Dashboard, landing page, web app internal, hingga SaaS product. Responsive, modern, dan siap deploy.",
     icon: PenTool,
     link: "#",
     price: "Custom Quote",
@@ -38,7 +38,7 @@ export function Services() {
           <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold text-white">
             Apa yang bisa <span className="text-slate-500">saya bantu?</span>
           </h2>
-          <p className="text-slate-500 mt-3 text-sm">Konsultasi gratis — langsung chat atau pesan via Fastwork</p>
+          <p className="text-slate-500 mt-3 text-sm">Konsultasi gratis, langsung chat atau pesan via Fastwork</p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

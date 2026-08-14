@@ -7,13 +7,13 @@ const experiences = [
   {
     title: "Workflow Automation Developer",
     company: "Freelance",
-    period: "2025 – sekarang",
+    period: "2025 - sekarang",
     location: "Bogor",
     points: [
       "Merancang dan membangun sistem otomatisasi menggunakan n8n untuk memproses data dari Google Sheets, menghasilkan konten artikel dengan AI, hingga publikasi otomatis ke Blogger dan WordPress.",
       "Mengintegrasikan berbagai API (OpenAI, Google Sheets, Blogger, Cloudinary) untuk alur kerja yang efisien.",
       "Menerapkan kontrol kualitas otomatis (keunikan konten & duplicate checker).",
-      "Hasil: mengurangi waktu proses manual hingga 95%, mampu menangani puluhan–ratusan artikel per hari.",
+      "Hasil: mengurangi waktu proses manual hingga 95%, mampu menangani puluhan sampai ratusan artikel per hari.",
     ],
   },
   {

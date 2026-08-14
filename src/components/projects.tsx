@@ -109,7 +109,7 @@ export function Projects() {
                     <ExternalLink className="w-3.5 h-3.5" /> Lihat Demo Live
                   </a>
                 ) : (
-                  <span className="text-xs text-slate-600 italic">Case study — demo privat</span>
+                  <span className="text-xs text-slate-600 italic">Case study, demo privat</span>
                 )}
               </div>
             </motion.div>

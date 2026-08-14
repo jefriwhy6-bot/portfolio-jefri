@@ -46,7 +46,7 @@ export function About() {
               Pernah membangun toko online dari nol hingga mencapai omzet{" "}
               <span className="text-accent font-semibold">Rp100 juta/bulan</span> lewat strategi iklan
               di Tokopedia, Shopee, dan Facebook/Instagram Ads. Kini fokus mengembangkan sistem
-              automation berbasis n8n dan AI untuk membantu bisnis lain bekerja lebih efisien —
+              automation berbasis n8n dan AI untuk membantu bisnis lain bekerja lebih efisien.
               memangkas kerja manual hingga 95% dan memungkinkan skalabilitas tanpa menambah SDM.
             </p>
           </motion.div>
