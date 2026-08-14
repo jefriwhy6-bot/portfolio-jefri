@@ -5,8 +5,8 @@ import { Zap, TrendingUp, Bot, Target } from "lucide-react";
 
 const stats = [
   { icon: TrendingUp, value: "Rp100jt", label: "Omzet/bulan dari nol", color: "text-accent" },
-  { icon: Zap, value: "95%", label: "Kerja manual berkurang", color: "text-neon-cyan" },
-  { icon: Bot, value: "AI+n8n", label: "Stack automation utama", color: "text-neon-indigo" },
+  { icon: Zap, value: "95%", label: "Efisiensi automation", color: "text-neon-cyan" },
+  { icon: Bot, value: "Full-Stack", label: "Web App & SaaS", color: "text-neon-indigo" },
   { icon: Target, value: "3+", label: "Tahun pengalaman", color: "text-neon-purple" },
 ];
 

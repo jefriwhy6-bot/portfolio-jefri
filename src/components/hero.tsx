@@ -53,8 +53,8 @@ export function Hero() {
           </h1>
 
           <p className="text-base sm:text-xl md:text-2xl text-slate-400 font-body mb-3 font-light">
-            Digital Marketing Specialist &{" "}
-            <span className="text-neon-cyan font-medium">Workflow Automation</span> Developer
+            Full-Stack Developer · AI Automation ·{" "}
+            <span className="text-neon-cyan font-medium">Digital Marketing</span>
           </p>
 
           <p className="text-sm sm:text-base text-slate-500 font-body max-w-xl mx-auto mb-10 leading-relaxed">

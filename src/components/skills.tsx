@@ -5,39 +5,39 @@ import { Cpu, BarChart3, Code, LineChart, Palette } from "lucide-react";
 
 const skillGroups = [
   {
-    category: "Automation & Integrasi",
+    category: "Automation & AI",
     icon: Cpu,
     color: "border-accent/20 hover:border-accent/40",
     dot: "bg-accent",
-    skills: ["n8n", "API Integration", "Google Sheets Automation", "OpenAI Integration", "JavaScript", "Webhooks"],
+    skills: ["n8n Automation", "AI Agent Development", "API Integration", "Workflow Design", "Python", "Webhooks"],
   },
   {
-    category: "Digital Marketing & SEO",
-    icon: BarChart3,
-    color: "border-neon-cyan/20 hover:border-neon-cyan/40",
-    dot: "bg-neon-cyan",
-    skills: ["Meta Ads Manager", "Facebook/IG Ads", "SEO On/Off-page", "Riset Keyword", "Google My Business"],
-  },
-  {
-    category: "Web Development",
+    category: "Web & App Development",
     icon: Code,
     color: "border-neon-indigo/20 hover:border-neon-indigo/40",
     dot: "bg-neon-indigo",
-    skills: ["Next.js", "TypeScript", "PHP", "MySQL", "HTML/CSS/JS", "WordPress", "Tailwind CSS"],
+    skills: ["Next.js", "TypeScript", "React", "Tailwind CSS", "PHP", "MySQL", "PostgreSQL", "Full-Stack Web App"],
   },
   {
-    category: "Analytics & Tools",
+    category: "Digital Marketing",
+    icon: BarChart3,
+    color: "border-neon-cyan/20 hover:border-neon-cyan/40",
+    dot: "bg-neon-cyan",
+    skills: ["Meta Ads (Facebook/IG)", "Marketplace Ads", "SEO", "Content Strategy", "Copywriting"],
+  },
+  {
+    category: "Analytics & Data",
     icon: LineChart,
     color: "border-emerald-500/20 hover:border-emerald-500/40",
     dot: "bg-emerald-500",
-    skills: ["Google Analytics", "Search Console", "Ahrefs/SEMrush", "Meta Business Suite"],
+    skills: ["Google Analytics", "Search Console", "Data Scraping", "Performance Tracking"],
   },
   {
-    category: "Konten & Design",
+    category: "Tools & Platform",
     icon: Palette,
     color: "border-neon-purple/20 hover:border-neon-purple/40",
     dot: "bg-neon-purple",
-    skills: ["WordPress CMS", "Canva", "CapCut", "Shopify", "Copywriting"],
+    skills: ["WordPress", "Vercel", "Docker", "Supabase", "Canva", "CapCut"],
   },
 ];
 
