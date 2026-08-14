@@ -9,7 +9,7 @@ const skillGroups = [
     icon: Cpu,
     color: "border-accent/20 hover:border-accent/40",
     dot: "bg-accent",
-    skills: ["n8n Automation", "AI Agent Development", "API Integration", "Workflow Design", "Python", "Webhooks"],
+    skills: ["n8n Automation", "AI Agent Development", "API Integration", "Python"],
   },
   {
     category: "Web & App Development",
@@ -30,14 +30,14 @@ const skillGroups = [
     icon: LineChart,
     color: "border-emerald-500/20 hover:border-emerald-500/40",
     dot: "bg-emerald-500",
-    skills: ["Google Analytics", "Search Console", "Data Scraping", "Performance Tracking"],
+    skills: ["Google Trends", "Google Search Console"],
   },
   {
     category: "Tools & Platform",
     icon: Palette,
     color: "border-neon-purple/20 hover:border-neon-purple/40",
     dot: "bg-neon-purple",
-    skills: ["WordPress", "Vercel", "Docker", "Supabase", "Canva", "CapCut"],
+    skills: ["n8n", "WordPress", "Canva", "CapCut"],
   },
 ];
 
